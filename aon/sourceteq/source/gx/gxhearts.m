@@ -209,14 +209,14 @@
                         
                         if(heartx > ballxpos)
                         {
-                            _ball.xspeed = -fabsf(ballxspeed);
+                            _ball.xspeed = -fabs(ballxspeed);
                         }
                         else
                         {
-                            _ball.xspeed = fabsf(ballxspeed);
+                            _ball.xspeed = fabs(ballxspeed);
                         }
                         
-                        _ball.yspeed = -fabsf(ballyspeed);
+                        _ball.yspeed = -fabs(ballyspeed);
                         
                         i = -1;
                     }
