@@ -30,6 +30,7 @@
 		DA876C391F1CF2EA00C4AC30 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44081AB7856100C47D27 /* GLKit.framework */; };
 		DA876C3C1F1CF88C00C4AC30 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA876C3A1F1CF88C00C4AC30 /* logo.png */; };
 		DA876C3D1F1CF88C00C4AC30 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA876C3B1F1CF88C00C4AC30 /* logo@3x.png */; };
+		DA876C3F1F1CF8E300C4AC30 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA876C3E1F1CF8E300C4AC30 /* launch.storyboard */; };
 		DA8BE56F1ABB42B800D538A1 /* vibtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE56E1ABB42B800D538A1 /* vibtn.m */; };
 		DA8BE5721ABB73D000D538A1 /* gxperks.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE5711ABB73D000D538A1 /* gxperks.m */; };
 		DA987CC81ABDE060000CE212 /* starter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA987CC71ABDE060000CE212 /* starter@2x.png */; };
@@ -45,7 +46,6 @@
 		DA9D43FA1AB77E9900C47D27 /* updater.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D43DC1AB77E9900C47D27 /* updater.m */; };
 		DA9D43FC1AB77E9900C47D27 /* timerbg.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D43E11AB77E9900C47D27 /* timerbg.m */; };
 		DA9D43FD1AB77E9900C47D27 /* skman.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D43ED1AB77E9900C47D27 /* skman.m */; };
-		DA9D43FE1AB77E9900C47D27 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9D43F11AB77E9900C47D27 /* launch.xib */; };
 		DA9D44051AB7832B00C47D27 /* ctrmain.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D44041AB7832B00C47D27 /* ctrmain.m */; };
 		DA9D44071AB7855900C47D27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44061AB7855900C47D27 /* OpenGLES.framework */; };
 		DA9D440C1AB78C0100C47D27 /* ctrdrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D440B1AB78C0100C47D27 /* ctrdrawer.m */; };
@@ -98,6 +98,7 @@
 		DA7DD2F91AC4989E001590C0 /* achs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = achs.plist; sourceTree = "<group>"; };
 		DA876C3A1F1CF88C00C4AC30 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		DA876C3B1F1CF88C00C4AC30 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		DA876C3E1F1CF8E300C4AC30 /* launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
 		DA8BE56D1ABB42B800D538A1 /* vibtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vibtn.h; sourceTree = "<group>"; };
 		DA8BE56E1ABB42B800D538A1 /* vibtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vibtn.m; sourceTree = "<group>"; };
 		DA8BE5701ABB73D000D538A1 /* gxperks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gxperks.h; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 		DA9D43EC1AB77E9900C47D27 /* skman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skman.h; sourceTree = "<group>"; };
 		DA9D43ED1AB77E9900C47D27 /* skman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skman.m; sourceTree = "<group>"; };
 		DA9D43EF1AB77E9900C47D27 /* vi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vi.h; sourceTree = "<group>"; };
-		DA9D43F11AB77E9900C47D27 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = "<group>"; };
 		DA9D44031AB7832B00C47D27 /* ctrmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctrmain.h; sourceTree = "<group>"; };
 		DA9D44041AB7832B00C47D27 /* ctrmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ctrmain.m; sourceTree = "<group>"; };
 		DA9D44061AB7855900C47D27 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -383,7 +383,7 @@
 		DA9D43F01AB77E9900C47D27 /* uiteq */ = {
 			isa = PBXGroup;
 			children = (
-				DA9D43F11AB77E9900C47D27 /* launch.xib */,
+				DA876C3E1F1CF8E300C4AC30 /* launch.storyboard */,
 			);
 			path = uiteq;
 			sourceTree = "<group>";
@@ -493,7 +493,6 @@
 				DA9D43AD1AB77D7600C47D27 /* Images.xcassets in Resources */,
 				DAC740541ABC8E26004CECBF /* perk_life@2x.png in Resources */,
 				DA7157E91AC0F66D004C7785 /* perk_steellife@2x.png in Resources */,
-				DA9D43FE1AB77E9900C47D27 /* launch.xib in Resources */,
 				DA9D44111AB7A75100C47D27 /* ball@2x.png in Resources */,
 				DA5B6CAB1AC1FAEE00D2F493 /* help@2x.png in Resources */,
 				DAC740561ABCD49C004CECBF /* perk_bigball@2x.png in Resources */,
@@ -502,6 +501,7 @@
 				DA9DDEB31AC3629500B7CAA8 /* store@2x.png in Resources */,
 				DA876C3D1F1CF88C00C4AC30 /* logo@3x.png in Resources */,
 				DA987CCA1ABDF309000CE212 /* perk_bigbar@2x.png in Resources */,
+				DA876C3F1F1CF8E300C4AC30 /* launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +646,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Agustin Iturbide (Q3HFYLXFGT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -664,7 +663,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Agustin Iturbide (7AMWG3RLHN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
