@@ -2,6 +2,14 @@
 
 @implementation updater
 
+NSInteger screenwidth;
+NSInteger screenwidth_2;
+NSInteger screenheight;
+NSInteger screenheight_2;
+NSInteger displayheight;
+CGRect screenrect;
+apptype applicationtype;
+
 +(updater*)sha
 {
     static updater *sha;
