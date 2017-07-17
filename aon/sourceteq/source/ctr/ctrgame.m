@@ -124,7 +124,7 @@
     if(ballminy < 0)
     {
         bally = ballradius;
-        ball.yspeed = fabsf(ball.yspeed);
+        ball.yspeed = fabs(ball.yspeed);
         
         [ball bounce];
         [effects add:[[gxeffect alloc] init:effecttypecrash posx:ballx posy:0]];
@@ -132,7 +132,7 @@
     else if(ballmaxy > displayheight)
     {
         bally = displayheight - ballradius;
-        ball.yspeed = -fabsf(ball.yspeed);
+        ball.yspeed = -fabs(ball.yspeed);
         
         [ball bounce];
         [effects add:[[gxeffect alloc] init:effecttypecrash posx:ballx posy:displayheight]];
@@ -141,7 +141,7 @@
     if(ballminx < 0)
     {
         ballx = ballradius;
-        ball.xspeed = fabsf(ball.xspeed);
+        ball.xspeed = fabs(ball.xspeed);
         
         [ball bounce];
         [effects add:[[gxeffect alloc] init:effecttypecrash posx:0 posy:bally]];
@@ -149,7 +149,7 @@
     else if(ballmaxx > screenwidth)
     {
         ballx = screenwidth - ballradius;
-        ball.xspeed = -fabsf(ball.xspeed);
+        ball.xspeed = -fabs(ball.xspeed);
         
         [ball bounce];
         [effects add:[[gxeffect alloc] init:effecttypecrash posx:screenwidth posy:bally]];
