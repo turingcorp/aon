@@ -28,6 +28,8 @@
 		DA7DD2F81AC49816001590C0 /* modachs.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD2F71AC49816001590C0 /* modachs.m */; };
 		DA7DD2FA1AC4989E001590C0 /* achs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F91AC4989E001590C0 /* achs.plist */; };
 		DA876C391F1CF2EA00C4AC30 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44081AB7856100C47D27 /* GLKit.framework */; };
+		DA876C3C1F1CF88C00C4AC30 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA876C3A1F1CF88C00C4AC30 /* logo.png */; };
+		DA876C3D1F1CF88C00C4AC30 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA876C3B1F1CF88C00C4AC30 /* logo@3x.png */; };
 		DA8BE56F1ABB42B800D538A1 /* vibtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE56E1ABB42B800D538A1 /* vibtn.m */; };
 		DA8BE5721ABB73D000D538A1 /* gxperks.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE5711ABB73D000D538A1 /* gxperks.m */; };
 		DA987CC81ABDE060000CE212 /* starter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA987CC71ABDE060000CE212 /* starter@2x.png */; };
@@ -94,6 +96,8 @@
 		DA7DD2F61AC49816001590C0 /* modachs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modachs.h; sourceTree = "<group>"; };
 		DA7DD2F71AC49816001590C0 /* modachs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modachs.m; sourceTree = "<group>"; };
 		DA7DD2F91AC4989E001590C0 /* achs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = achs.plist; sourceTree = "<group>"; };
+		DA876C3A1F1CF88C00C4AC30 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DA876C3B1F1CF88C00C4AC30 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
 		DA8BE56D1ABB42B800D538A1 /* vibtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vibtn.h; sourceTree = "<group>"; };
 		DA8BE56E1ABB42B800D538A1 /* vibtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vibtn.m; sourceTree = "<group>"; };
 		DA8BE5701ABB73D000D538A1 /* gxperks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gxperks.h; sourceTree = "<group>"; };
@@ -221,6 +225,8 @@
 		DA9D43C81AB77E9900C47D27 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				DA876C3A1F1CF88C00C4AC30 /* logo.png */,
+				DA876C3B1F1CF88C00C4AC30 /* logo@3x.png */,
 				DA7DD2F41AC4961A001590C0 /* launch@2x.png */,
 				DA7DD2F01AC48804001590C0 /* logo@2x.png */,
 				DA9DDEB21AC3629500B7CAA8 /* store@2x.png */,
@@ -470,6 +476,7 @@
 			files = (
 				DA9D43F51AB77E9900C47D27 /* perks.plist in Resources */,
 				DA7DD2F51AC4961A001590C0 /* launch@2x.png in Resources */,
+				DA876C3C1F1CF88C00C4AC30 /* logo.png in Resources */,
 				DA7DD2F11AC48804001590C0 /* logo@2x.png in Resources */,
 				DAFF00FE1AB96A04003547ED /* brick@2x.png in Resources */,
 				DA9D43F41AB77E9900C47D27 /* Localizable.strings in Resources */,
@@ -493,6 +500,7 @@
 				DA77A33D1AB9F05300FA5DE5 /* pumper@2x.png in Resources */,
 				DA987CCC1ABE37D2000CE212 /* perk_clock@2x.png in Resources */,
 				DA9DDEB31AC3629500B7CAA8 /* store@2x.png in Resources */,
+				DA876C3D1F1CF88C00C4AC30 /* logo@3x.png in Resources */,
 				DA987CCA1ABDF309000CE212 /* perk_bigbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
