@@ -10,11 +10,3 @@
 #define proppurdouble           @"purchase_double"
 #define propmaxscore            @"maxscore"
 #define stringdrawing           NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin
-
-extern NSInteger screenwidth;
-extern NSInteger screenwidth_2;
-extern NSInteger screenheight;
-extern NSInteger screenheight_2;
-extern NSInteger displayheight;
-extern CGRect screenrect;
-extern apptype applicationtype;
