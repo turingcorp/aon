@@ -11,10 +11,10 @@
 #define propmaxscore            @"maxscore"
 #define stringdrawing           NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin
 
-NSInteger screenwidth;
-NSInteger screenwidth_2;
-NSInteger screenheight;
-NSInteger screenheight_2;
-NSInteger displayheight;
-CGRect screenrect;
-apptype applicationtype;
+extern NSInteger screenwidth;
+extern NSInteger screenwidth_2;
+extern NSInteger screenheight;
+extern NSInteger screenheight_2;
+extern NSInteger displayheight;
+extern CGRect screenrect;
+extern apptype applicationtype;
