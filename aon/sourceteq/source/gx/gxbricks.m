@@ -195,7 +195,7 @@
             if(brickminx < 0)
             {
                 brickx = thisbrickwidth_2;
-                brick.xspeed = fabsf(brickxspeed);
+                brick.xspeed = fabs(brickxspeed);
                 
                 brickminx = brickx - thisbrickwidth_2;
                 brickmaxx = brickx + thisbrickwidth_2;
@@ -206,7 +206,7 @@
             if(brickmaxx > screenwidth)
             {
                 brickx = screenwidth - thisbrickwidth_2;
-                brick.xspeed = -fabsf(brickxspeed);
+                brick.xspeed = -fabs(brickxspeed);
                 
                 brickminx = brickx - thisbrickwidth_2;
                 brickmaxx = brickx + thisbrickwidth_2;
@@ -311,8 +311,8 @@
 
 -(void)ricochet:(gxball*)_ball
 {
-    CGFloat ballxspeed = fabsf(_ball.xspeed);
-    CGFloat ballyspeed = fabsf(_ball.yspeed);
+    CGFloat ballxspeed = fabs(_ball.xspeed);
+    CGFloat ballyspeed = fabs(_ball.yspeed);
     CGFloat ballxpos = _ball.xpos;
     CGFloat ballypos = _ball.ypos;
     CGFloat ballradius = _ball.radius;
