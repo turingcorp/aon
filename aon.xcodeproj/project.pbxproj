@@ -28,6 +28,7 @@
 		DA7DD2F51AC4961A001590C0 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F41AC4961A001590C0 /* launch@2x.png */; };
 		DA7DD2F81AC49816001590C0 /* modachs.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD2F71AC49816001590C0 /* modachs.m */; };
 		DA7DD2FA1AC4989E001590C0 /* achs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F91AC4989E001590C0 /* achs.plist */; };
+		DA876C391F1CF2EA00C4AC30 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44081AB7856100C47D27 /* GLKit.framework */; };
 		DA8BE56F1ABB42B800D538A1 /* vibtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE56E1ABB42B800D538A1 /* vibtn.m */; };
 		DA8BE5721ABB73D000D538A1 /* gxperks.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE5711ABB73D000D538A1 /* gxperks.m */; };
 		DA987CC81ABDE060000CE212 /* starter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA987CC71ABDE060000CE212 /* starter@2x.png */; };
@@ -44,10 +45,8 @@
 		DA9D43FC1AB77E9900C47D27 /* timerbg.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D43E11AB77E9900C47D27 /* timerbg.m */; };
 		DA9D43FD1AB77E9900C47D27 /* skman.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D43ED1AB77E9900C47D27 /* skman.m */; };
 		DA9D43FE1AB77E9900C47D27 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9D43F11AB77E9900C47D27 /* launch.xib */; };
-		DA9D44001AB782CB00C47D27 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D43FF1AB782CB00C47D27 /* StoreKit.framework */; };
 		DA9D44051AB7832B00C47D27 /* ctrmain.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D44041AB7832B00C47D27 /* ctrmain.m */; };
 		DA9D44071AB7855900C47D27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44061AB7855900C47D27 /* OpenGLES.framework */; };
-		DA9D44091AB7856100C47D27 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D44081AB7856100C47D27 /* GLKit.framework */; };
 		DA9D440C1AB78C0100C47D27 /* ctrdrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D440B1AB78C0100C47D27 /* ctrdrawer.m */; };
 		DA9D440F1AB78C0A00C47D27 /* ctrupdater.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D440E1AB78C0A00C47D27 /* ctrupdater.m */; };
 		DA9D44111AB7A75100C47D27 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44101AB7A75100C47D27 /* ball@2x.png */; };
@@ -61,7 +60,6 @@
 		DAC740541ABC8E26004CECBF /* perk_life@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC740531ABC8E26004CECBF /* perk_life@2x.png */; };
 		DAC740561ABCD49C004CECBF /* perk_bigball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC740551ABCD49C004CECBF /* perk_bigball@2x.png */; };
 		DAE3965F1AC12740008ECB25 /* scores@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE3965E1AC12740008ECB25 /* scores@2x.png */; };
-		DAE396611AC1419B008ECB25 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE396601AC1419B008ECB25 /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DAFF00FE1AB96A04003547ED /* brick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFF00FD1AB96A04003547ED /* brick@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -132,7 +130,6 @@
 		DA9D43ED1AB77E9900C47D27 /* skman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skman.m; sourceTree = "<group>"; };
 		DA9D43EF1AB77E9900C47D27 /* vi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vi.h; sourceTree = "<group>"; };
 		DA9D43F11AB77E9900C47D27 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = "<group>"; };
-		DA9D43FF1AB782CB00C47D27 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DA9D44031AB7832B00C47D27 /* ctrmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctrmain.h; sourceTree = "<group>"; };
 		DA9D44041AB7832B00C47D27 /* ctrmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ctrmain.m; sourceTree = "<group>"; };
 		DA9D44061AB7855900C47D27 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -159,7 +156,6 @@
 		DAC740531ABC8E26004CECBF /* perk_life@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "perk_life@2x.png"; sourceTree = "<group>"; };
 		DAC740551ABCD49C004CECBF /* perk_bigball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "perk_bigball@2x.png"; sourceTree = "<group>"; };
 		DAE3965E1AC12740008ECB25 /* scores@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scores@2x.png"; sourceTree = "<group>"; };
-		DAE396601AC1419B008ECB25 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		DAFF00FD1AB96A04003547ED /* brick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,10 +164,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9D44091AB7856100C47D27 /* GLKit.framework in Frameworks */,
+				DA876C391F1CF2EA00C4AC30 /* GLKit.framework in Frameworks */,
 				DA9D44071AB7855900C47D27 /* OpenGLES.framework in Frameworks */,
-				DA9D44001AB782CB00C47D27 /* StoreKit.framework in Frameworks */,
-				DAE396611AC1419B008ECB25 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +185,8 @@
 		DA9D43931AB77D7600C47D27 = {
 			isa = PBXGroup;
 			children = (
-				DAE396601AC1419B008ECB25 /* GameKit.framework */,
 				DA9D44081AB7856100C47D27 /* GLKit.framework */,
 				DA9D44061AB7855900C47D27 /* OpenGLES.framework */,
-				DA9D43FF1AB782CB00C47D27 /* StoreKit.framework */,
 				DA9D439E1AB77D7600C47D27 /* aon */,
 				DA9D439D1AB77D7600C47D27 /* Products */,
 			);
