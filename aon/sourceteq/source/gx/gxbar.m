@@ -176,9 +176,9 @@
                     [game pumping];
                     [_ball bounce];
                     
-                    CGFloat xspeed_2 = fabsf(xspeed) / 6;
-                    CGFloat ballxspeed = fabsf(_ball.xspeed);
-                    CGFloat ballyspeed = fabsf(_ball.yspeed);
+                    CGFloat xspeed_2 = fabs(xspeed) / 6;
+                    CGFloat ballxspeed = fabs(_ball.xspeed);
+                    CGFloat ballyspeed = fabs(_ball.yspeed);
                     
                     ballxspeed += xspeed_2;
                     ballyspeed += xspeed_2;
