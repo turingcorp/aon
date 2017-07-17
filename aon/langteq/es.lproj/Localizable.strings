@@ -1,0 +1,44 @@
+"alert_message"="¿Te gusta aon?\nDile a los demas y calificalo";
+"alert_no"="Ahora no";
+"alert_do"="Claro";
+"alert_dontask"="No volver a preguntar";
+"alert_accept"="Aceptar";
+
+"screen_newgame"="Jugar";
+"screen_resume"="Continuar";
+"screen_restart"="Reiniciar";
+"screen_died"="Juego finalizado";
+"screen_maxscore"="Puntaje maximo: %@";
+"screen_currentscore"="Puntaje: %@";
+
+"instr_close_btn"="Cerrar";
+"instr_title"="Instrucciones";
+"instr_sect_0_title"="Como jugar";
+"instr_sect_1_title"="Color de Ladrillos";
+"instr_sect_2_title"="Poderes";
+"instr_sect_0_0"="La Pelota rebota en la pantalla";
+"instr_sect_0_1"="Mueve la Barra para jugar con la Pelota";
+"instr_sect_0_2"="Los Ladrillos dan puntos, destruye los mas que puedas";
+"instr_sect_0_3"="Los Trapecios representan tus vidas, protegelos";
+"instr_sect_0_4"="Algunos Ladrillos tiran Poderes";
+"instr_sect_1_0"="El color indica cuantos golpes necesita para romperse, los mas dificiles dan mas puntos";
+"instr_sect_2_0"="Pelota grande";
+"instr_sect_2_1"="Barra grande";
+"instr_sect_2_2"="Restaura 1 vida";
+"instr_sect_2_3"="Ladrillos lentos";
+"instr_sect_2_4"="Super Pelota";
+"instr_sect_2_5"="Trapecios indestructibles";
+
+"store_close_btn"="Cerrar";
+"store_restore_btn"="Restaruar compras";
+
+"perksview_btnbuy"="Comprar";
+"perksview_empty"="No hay compras disponibles";
+"perksview_deferred"="Compra pospuesta";
+"perksview_purchasing"="Comprando...";
+
+"perks_double_name"="Doble";
+"perks_double_shortdescription"="Mas Poderes";
+"perks_double_longdescription"="Incrementa el numero de Poderes que son tirados por los Ladrillos\nLos Ladrillos tiraran Poderes el doble de las veces.";
+
+"sk_error_noconnection"="Fallo la conexion a internet, intenta de nuevo";

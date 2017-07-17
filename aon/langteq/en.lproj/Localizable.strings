@@ -1,0 +1,44 @@
+"alert_message"="Like aon?\nLet others know and rate it";
+"alert_no"="Not right now";
+"alert_do"="Sure";
+"alert_dontask"="Never ask again";
+"alert_accept"="Accept";
+
+"screen_newgame"="Play";
+"screen_resume"="Resume";
+"screen_restart"="Restart";
+"screen_died"="Game over";
+"screen_maxscore"="Max score: %@";
+"screen_currentscore"="Score: %@";
+
+"instr_close_btn"="Close";
+"instr_title"="Instructions";
+"instr_sect_0_title"="How to play";
+"instr_sect_1_title"="Brick colors";
+"instr_sect_2_title"="Power ups";
+"instr_sect_0_0"="Ball bounces across the screen";
+"instr_sect_0_1"="Move the Bar to play de Ball";
+"instr_sect_0_2"="Bricks give you points, destroy as many as possible";
+"instr_sect_0_3"="Trapezoids represent your life, protect them";
+"instr_sect_0_4"="Some Bricks drop Power ups";
+"instr_sect_1_0"="Color shows how many hits to be destroyed, the harder the more points you get";
+"instr_sect_2_0"="Bigger Ball";
+"instr_sect_2_1"="Bigger Bar";
+"instr_sect_2_2"="Restores 1 Life";
+"instr_sect_2_3"="Slows Bricks";
+"instr_sect_2_4"="Super Ball";
+"instr_sect_2_5"="Invincible Trapezoids";
+
+"store_close_btn"="Close";
+"store_restore_btn"="Restore purchases";
+
+"perksview_btnbuy"="Purchase";
+"perksview_empty"="No purchases available";
+"perksview_deferred"="Purchase deferred";
+"perksview_purchasing"="Purchasing...";
+
+"perks_double_name"="Double";
+"perks_double_shortdescription"="More Power Ups";
+"perks_double_longdescription"="Increases the amount of Power Ups that are dropped by Bricks.\nBricks will drop Power Ups twice as often.";
+
+"sk_error_noconnection"="Internet connection failed, try again";

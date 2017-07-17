@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>iturbide.aon.wood</string>
+		<key>points</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>iturbide.aon.bronze</string>
+		<key>points</key>
+		<integer>200</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>iturbide.aon.silver</string>
+		<key>points</key>
+		<real>1000</real>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>iturbide.aon.gold</string>
+		<key>points</key>
+		<integer>2500</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>iturbide.aon.platinum</string>
+		<key>points</key>
+		<integer>5000</integer>
+	</dict>
+</array>
+</plist>
