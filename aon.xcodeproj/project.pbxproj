@@ -24,7 +24,6 @@
 		DA7DD2EC1AC46464001590C0 /* ctralert.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD2EB1AC46464001590C0 /* ctralert.m */; };
 		DA7DD2EF1AC46605001590C0 /* modperks.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD2EE1AC46605001590C0 /* modperks.m */; };
 		DA7DD2F11AC48804001590C0 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F01AC48804001590C0 /* logo@2x.png */; };
-		DA7DD2F31AC48EEE001590C0 /* in in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F21AC48EEE001590C0 /* in */; };
 		DA7DD2F51AC4961A001590C0 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F41AC4961A001590C0 /* launch@2x.png */; };
 		DA7DD2F81AC49816001590C0 /* modachs.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD2F71AC49816001590C0 /* modachs.m */; };
 		DA7DD2FA1AC4989E001590C0 /* achs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7DD2F91AC4989E001590C0 /* achs.plist */; };
@@ -91,7 +90,6 @@
 		DA7DD2ED1AC46605001590C0 /* modperks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modperks.h; sourceTree = "<group>"; };
 		DA7DD2EE1AC46605001590C0 /* modperks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modperks.m; sourceTree = "<group>"; };
 		DA7DD2F01AC48804001590C0 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		DA7DD2F21AC48EEE001590C0 /* in */ = {isa = PBXFileReference; lastKnownFileType = folder; path = in; sourceTree = "<group>"; };
 		DA7DD2F41AC4961A001590C0 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
 		DA7DD2F61AC49816001590C0 /* modachs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modachs.h; sourceTree = "<group>"; };
 		DA7DD2F71AC49816001590C0 /* modachs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modachs.m; sourceTree = "<group>"; };
@@ -215,7 +213,6 @@
 		DA9D43C71AB77E9900C47D27 /* imateq */ = {
 			isa = PBXGroup;
 			children = (
-				DA7DD2F21AC48EEE001590C0 /* in */,
 				DA9D43C81AB77E9900C47D27 /* ui */,
 			);
 			path = imateq;
@@ -488,7 +485,6 @@
 				DA7157E81AC0F66D004C7785 /* perk_steelball@2x.png in Resources */,
 				DA9D43AD1AB77D7600C47D27 /* Images.xcassets in Resources */,
 				DAC740541ABC8E26004CECBF /* perk_life@2x.png in Resources */,
-				DA7DD2F31AC48EEE001590C0 /* in in Resources */,
 				DA7157E91AC0F66D004C7785 /* perk_steellife@2x.png in Resources */,
 				DA9D43FE1AB77E9900C47D27 /* launch.xib in Resources */,
 				DA9D44111AB7A75100C47D27 /* ball@2x.png in Resources */,
